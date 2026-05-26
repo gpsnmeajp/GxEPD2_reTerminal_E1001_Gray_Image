@@ -3,6 +3,8 @@
 Seeed **reTerminal E1001** (800×480 UC8179 電子ペーパー搭載 ESP32 ボード) を使って、  
 自宅サーバーからテキストを取得し 4 階調で表示する Arduino スケッチと Python サーバーのセットです。
 
+![alt text](image.png)
+
 ---
 
 ## 機能概要
