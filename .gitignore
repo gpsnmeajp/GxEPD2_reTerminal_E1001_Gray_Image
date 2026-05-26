@@ -1,0 +1,45 @@
+# =============================================================================
+# .gitignore  ―  Git 管理対象外ファイルの定義
+# =============================================================================
+
+# ===== 機密情報ファイル =====
+# Wi-Fi 認証情報やサーバーアドレスを含むため、リポジトリに含めない
+secrets.h
+
+# ===== Python 関連 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ===== OS 生成ファイル =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ===== IDE / エディター設定 =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== Arduino ビルド成果物 =====
+build/
+*.elf
+*.bin
+*.hex
+*.map
